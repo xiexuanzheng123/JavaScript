@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/this_prototype/this.js'
+            './src/js/this_prototype/wrong2.js'
         ]
     },
     output: {
