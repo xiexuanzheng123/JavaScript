@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/closure/api.js'
+            './src/js/closure/arrow.js'
         ]
     },
     output: {
