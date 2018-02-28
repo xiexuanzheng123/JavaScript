@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/closure/for.js'
+            './src/js/closure/module.js'
         ]
     },
     output: {
