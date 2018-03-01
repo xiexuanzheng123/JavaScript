@@ -1,0 +1,18 @@
+/** 
+ * 
+ * 调用位置是否有上下文对象
+*/
+function foo() {
+    console.log(this.a);
+}
+
+var obj2 = {
+    a: 42,
+    foo: foo
+};
+
+var obj1 = {
+    a: 2,
+    obj2: obj2
+}
+obj1.obj2.foo();//42最近的一层

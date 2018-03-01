@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/this_prototype/default.js'
+            './src/js/this_prototype/implicit.js'
         ]
     },
     output: {
