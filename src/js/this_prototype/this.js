@@ -15,8 +15,8 @@ var you = {
     name: 'Reader'
 };
 
-identify.call(me);
+identify.call(me);//identify中的this代表me
 identify.call(you);
 
-speak.call(me);
+speak.call(me);//speak中的this代表me
 speak.call(you);
