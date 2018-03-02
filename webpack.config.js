@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/this_prototype/miss_binding2.js'
+            './src/js/this_prototype/bind.js'
         ]
     },
     output: {
