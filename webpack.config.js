@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/this_prototype/priority.js'
+            './src/js/this_prototype/exception.js'
         ]
     },
     output: {
