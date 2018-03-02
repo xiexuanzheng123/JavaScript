@@ -25,3 +25,5 @@ var obj1 = {
     id: "awe"
 };
 [1, 2, 3].forEach(foo1, obj1);
+//提供了一个可选的参数，称为上下文（context），其作用和bind一样，
+//确保回调函数中使用指定的this
