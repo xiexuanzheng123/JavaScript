@@ -2,7 +2,7 @@ function foo(a) {
     this.a = a;
 }
 var bar = new foo(2);
-console.log(bar.a);
+console.log(bar.a);//2
 console.log(bar);
 /**
  * 1 创建一个全新的对象
