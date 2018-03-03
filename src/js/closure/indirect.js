@@ -20,7 +20,7 @@ bar();
 
 function wait(message) {
     setTimeout(function timer() {
-        console.log(message);
+        console.log(message);//这个就是闭包，回调函数就是一个闭包
     }, 1000);
 }
 
