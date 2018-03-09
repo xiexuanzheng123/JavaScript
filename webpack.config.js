@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/class/constructor.js'
+            './src/js/prototype/class.js'
         ]
     },
     output: {
