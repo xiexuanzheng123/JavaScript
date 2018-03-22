@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/scope/with.js'
+            './src/js/es6/arrow.js'
         ]
     },
     output: {
