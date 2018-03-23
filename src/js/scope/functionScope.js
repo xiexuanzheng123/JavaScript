@@ -30,7 +30,7 @@ var c = 2;
 (function IIFE(global) {
     var c = 3;
     console.log(c);
-    console.log(global);
+    console.log(global.c);
 })(window);
 
 var d = 2;
