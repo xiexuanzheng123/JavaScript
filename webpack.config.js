@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/generator/yield.js'
+            './src/js/lastPart/break.js'
         ]
     },
     output: {
