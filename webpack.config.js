@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/lastPart/break.js'
+            './src/js/lastPart/functionArr.js'
         ]
     },
     output: {
