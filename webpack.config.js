@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/lastPart/defaultValue.js'
+            './src/js/lastPart/setPrototypeOf.js'
         ]
     },
     output: {
