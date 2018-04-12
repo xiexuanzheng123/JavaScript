@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         index: [
             'babel-polyfill',
-            './src/js/lastPart/super.js'
+            './src/js/lastPart/target.js'
         ]
     },
     output: {
