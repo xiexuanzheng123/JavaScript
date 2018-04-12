@@ -16,4 +16,4 @@ val1 = it1.next(val2 * 10).value;//40 x=20 z=2
 val2 = it2.next(val1 * 5).value;//600 x = 200 z=3
 
 it1.next(val2 / 2);//20 600 3
-it2.next(val1 / 4);//200
+it2.next(val1 / 4);//200   
