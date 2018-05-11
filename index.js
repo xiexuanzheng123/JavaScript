@@ -1,7 +1,6 @@
-console.log('It works');
-
-function foo(a) {
-    console.log(a + b);
+for (let i = 0; i < 3; i++) {
+    let i = 'abc';
+    console.log(i);
 }
-var b = 2;
-foo(2);
+console.log('it works');
+
