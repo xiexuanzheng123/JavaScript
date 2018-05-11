@@ -7,8 +7,8 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: {
         index: [
-            'babel-polyfill',
-            './src/js/lastPart/target.js'
+            'babel-polyfill',/**转换新的API */
+            './ES6/let/tmp.js'
         ]
     },
     output: {
